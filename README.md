@@ -51,6 +51,11 @@ The deployed GitHub Pages URL will be available at the repository's Pages addres
 すべてオリジナルの 32×32 テクスチャで、石・レンガ・ガラスと同じ明暗方向になるよう統一しています。
 
 
-### 26.2 互換性の修正
+### Eaglercraft 互換性について
 
-「このバージョンには古いものです」と表示されないよう、`pack.mcmeta` を Resource Pack version **88.0** に更新しました。テクスチャの配置も旧形式の `textures/blocks/` から、26.2 の `textures/block/` へ変更しています。
+添付画像の警告は、このクライアントが Java 版 Minecraft 26.2 の Resource Pack version 88.0 を実装していないために表示されています。この Eaglercraft クライアントで認識される旧形式に合わせ、`pack_format: 1` と `textures/blocks/` を使用しています。警告が出た場合は、内容を確認して **Yes** を選んでください。
+
+
+### シェーダー・PBRについて
+
+このクライアントには Java 版の OptiFine／Iris／Oculus 用シェーダー設定はなく、通常のリソースパックから影マップ、Specular、PBR、リアルタイム反射を調整することはできません。このパックでは水・光源・建材のテクスチャとアニメーションだけを改善しています。
