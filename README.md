@@ -49,3 +49,8 @@ The deployed GitHub Pages URL will be available at the repository's Pages addres
 - 鉱物ブロック：鉄、金、ダイヤモンド、エメラルド、レッドストーン、ラピスラズリ
 
 すべてオリジナルの 32×32 テクスチャで、石・レンガ・ガラスと同じ明暗方向になるよう統一しています。
+
+
+### 26.2 互換性の修正
+
+「このバージョンには古いものです」と表示されないよう、`pack.mcmeta` を Resource Pack version **88.0** に更新しました。テクスチャの配置も旧形式の `textures/blocks/` から、26.2 の `textures/block/` へ変更しています。
