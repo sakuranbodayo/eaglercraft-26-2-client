@@ -59,3 +59,12 @@ The deployed GitHub Pages URL will be available at the repository's Pages addres
 ### シェーダー・PBRについて
 
 このクライアントには Java 版の OptiFine／Iris／Oculus 用シェーダー設定はなく、通常のリソースパックから影マップ、Specular、PBR、リアルタイム反射を調整することはできません。このパックでは水・光源・建材のテクスチャとアニメーションだけを改善しています。
+
+
+### 本家に近い標準見た目
+
+本家 Minecraft のテクスチャを再配布せず、Eaglercraft に内蔵された標準テクスチャをそのまま使用するための空パックを追加しました。
+
+- [eaglercraft-vanilla-base-pack.zip](./eaglercraft-vanilla-base-pack.zip)
+- 「ファイルを開く」から読み込めます。
+- テクスチャを上書きしないため、標準見た目を維持します。
