@@ -24,7 +24,7 @@ The deployed GitHub Pages URL will be available at the repository's Pages addres
 
 ## Natural Light テクスチャパック
 
-オリジナルの軽量 32×32 高詳細テクスチャパックを追加しました。水・植物・葉はフレームアニメーション、空・雲・光は明るいピクセルアートで表現しています。
+オリジナルの軽量 32×32 高詳細テクスチャパックを追加しました。水・植物・葉は 16 フレームの滑らかなアニメーション、地面は控えめな濡れた光沢、空・雲・光は明るいピクセルアートで表現しています。
 
 - [eaglercraft-light-natural-pack.zip](./eaglercraft-light-natural-pack.zip)
 - クライアントの「ファイルを開く」で ZIP を読み込んでください。
