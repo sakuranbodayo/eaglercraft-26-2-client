@@ -20,3 +20,12 @@ The deployed GitHub Pages URL will be available at the repository's Pages addres
 - 対応パックがない状態で、本家 Minecraft の影 MOD を変換して使うことはできません。
 
 したがって、このクライアントだけで内蔵シェーダーをボタンから有効化する手順はありません。シェーダーを追加する場合は、Eaglercraft 26.2 v0.6 が受け付ける形式の、利用許諾を確認済みのリソースパックを用意してから「ファイルを開く」でインポートしてください。
+
+
+## Natural Light テクスチャパック
+
+オリジナルの軽量 16×16 テクスチャパックを追加しました。水・植物・葉はフレームアニメーション、空・雲・光は明るいピクセルアートで表現しています。
+
+- [eaglercraft-light-natural-pack.zip](./eaglercraft-light-natural-pack.zip)
+- クライアントの「ファイルを開く」で ZIP を読み込んでください。
+- 実時間の影やジオメトリの植物揺れを追加するシェーダー／MODではありません。
