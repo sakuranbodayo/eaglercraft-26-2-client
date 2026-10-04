@@ -68,3 +68,13 @@ The deployed GitHub Pages URL will be available at the repository's Pages addres
 - [eaglercraft-vanilla-base-pack.zip](./eaglercraft-vanilla-base-pack.zip)
 - 「ファイルを開く」から読み込めます。
 - テクスチャを上書きしないため、標準見た目を維持します。
+
+
+### Eaglercraft 26.x Realistic Shader
+
+ユーザー提供のコアシェーダー上書きパックを追加しました。草・シダ・サトウキビの風揺れ、水面の波・空反射、日向と日陰の色分け、時間帯による太陽色、大気散乱、トーンカーブを含みます。
+
+- [シェーダー ZIP をダウンロード](./eagler-realistic-shader-repo.zip)
+- [展開したソースを見る](./eagler-realistic-shader-repo/)
+- Eaglercraft の **Import Pack... / ファイルを開く**から ZIP を読み込んでください。
+- リアルタイム影マップ、完全な PBR、地形の水面反射は README 記載のとおり非対応です。
