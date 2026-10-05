@@ -1,0 +1,8 @@
+{
+ "pack": {
+  "description": "Realistic Terrain Shader (waving foliage / Gerstner water / sky reflection)",
+  "pack_format": 34,
+  "min_format": 34,
+  "max_format": 99
+ }
+}
