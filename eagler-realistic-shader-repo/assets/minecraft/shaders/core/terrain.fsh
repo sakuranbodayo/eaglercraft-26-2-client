@@ -93,6 +93,7 @@ vec4 sampleRGSS(sampler2D source, vec2 uv, vec2 pixelSize) {
 
 #define TAU 6.28318530718
 #define SUN_SHADOW 1.0        // 日向/日陰のコントラスト (0.0 で無効)
+#define SUN_INTENSITY 1.0     // 日向の暖色・明るさの強さ (0.0 - 1.5)
 #define WATER_REFLECTION 1.0  // 水面の空の反射 (0.0 で無効)
 #define FOG_SCATTER 1.0       // 太陽方向の大気散乱 (0.0 で無効)
 #define SATURATION 1.12       // 彩度
@@ -229,7 +230,7 @@ void main() {
     float facing = smoothstep(-0.10, 0.55, ndl);             // 太陽に向く面
     float lit = sunReach * facing;
 
-    vec3 litMul = sunTone * (0.95 + 0.22 * max(ndl, 0.0));
+    vec3 litMul = mix(vec3(1.0), sunTone * (0.95 + 0.22 * max(ndl, 0.0)), SUN_INTENSITY);
     vec3 shadeMul = mix(vec3(0.80, 0.88, 1.02), vec3(0.74, 0.82, 1.02), twi) * 0.92;
     vec3 dayMul = mix(shadeMul, litMul, lit);
     vec3 nightMul = vec3(0.86, 0.93, 1.10);
